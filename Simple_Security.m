@@ -1,7 +1,8 @@
 tic;
 clc;
 clear;
-%%
+
+%% obtain the data from the yahoo service, from 01/01/2015 to 01/01/2016, daily.
 GOLD = fetch(yahoo,{'GOLD'},{'Close'},'01/01/15','01/01/16','d');
 ABX_TO = fetch(yahoo,{'ABX.TO'},{'Close'},'01/01/15','01/01/16','d');
 
